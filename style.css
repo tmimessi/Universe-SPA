@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --ff-primary: 'Roboto', sans-serif;
+  --text-color: #e1e1e6;
+}
+
+body * {
+  font-family: var(--ff-primary);
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+nav {
+  margin-top: 4rem;
+  margin-left: 7.2rem;
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  padding-right: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 2.4rem;
+  padding: 1.6rem;
+}
+
+#first {
+  color: var(--text-color);
+  font-size: 5rem;
+  font-family: var(--ff-primary);
+}
+
+#second {
+  color: var(--text-color);
+  font-size: 5rem;
+  font-family: var(--ff-primary);
+  margin-top: 10rem;
+  margin-left: 10rem;
+}
+
+#third {
+  color: var(--text-color);
+  font-size: 5rem;
+  font-family: var(--ff-primary);
+  margin-top: 10rem;
+  margin-left: 10rem;
+}
+
+p {
+  color: var(--text-color);
+  font-size: 2rem;
+  margin-top: 1.6rem;
+  position: absolute;
+  font-family: var(--ff-primary);
+  line-height: 160%;
+  max-width: 65rem;  
+  margin-left: 10rem;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 15%;
+}
+
+button {
+  background-color: var(--text-color);
+  border-radius: 5px;
+  height: 5rem;
+  width: 20rem;
+  text-transform: uppercase;
+  color: #02799D;
+  cursor: pointer;
+  border: none;
+  padding: 0 1rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+  color: var(--text-color);
+}
+
+
+
+
+.home{
+  background-image: url(/images/mountains-universe-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  z-index: -5;
+  background-position-y: center;
+}
+
+.theUniverse {
+  background-image: url(/images/mountains-universe-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width:100vw;
+  height: 100vh;
+  top: 0;
+  z-index: -5;
+}
+
+.exploration {
+  background-image: url(/images/mountains-universe-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width:100vw;
+  height: 100vh;
+  top: 0;
+  z-index: -5;
+}
